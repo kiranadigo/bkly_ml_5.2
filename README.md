@@ -11,6 +11,10 @@ There are several key findings:
 - Drivers under 30 years of age accept coupons for cheap restaurants only slightly more than people over age 30, indicating that age alone is not a big contributor the acceptance rate of these coupons
 - Same for the income distribution, drivers earning under or over $50K were offered about the same number of coupons and they accepted similar percentage of coupons (around 70%)
 
-On analyzing a much larger combination of attributes, there are a few categories of drivers that stood out as having both a high number of offers and a good acceptance rate. One of the key baselines we need to establish is - what is the target acceptance rate. For the sake of this exercise, I set it as 75%. 
-
+On analyzing a much larger combination of attributes, there are a few categories of drivers that stood out as having both a high number of offers and a good acceptance rate. One of the key baselines we need to establish is - what is the target acceptance rate. For the sake of this exercise, I set it as 75%. Based on my analysis, these are the groups that should be targeted for coupons of cheap restaurants as they are both high volume and higher acceptance rate:
+- Drivers going to no urgent place with friends, and coupon expiring in 2 hours
+- Drivers going by themselves, and coupon expiring one day later
+- Drivers going home with a partner, and coupon expiring one day later
+  
+![Acceptance rate by combination of attributes](https://github.com/kiranadigo/bkly_ml_5.2/blob/main/images/coupon_combo.png)
 
